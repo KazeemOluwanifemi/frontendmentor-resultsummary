@@ -28,6 +28,10 @@ body{
     border-radius: 30px;
 }
 
+.second-half-top{
+    display: none;
+}
+
 .first-half{
     display: flex;
     flex-direction: column;
@@ -96,8 +100,70 @@ body{
 }
 
 .attribution{
-    font-size: smaller;
-    
+    font-size: smaller; 
+}
+
+
+/* Code for mobile view */
+/* Adjust the height of the picture to make it fit */
+@media screen and (max-width:375px) {
+    body{
+        display: flex;
+        height: auto;
+        width: 375px;
+        background-color: var(--white);
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0%;
+    }
+
+    .first-half{
+        display: grid;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .stay-updated{
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .checklist{
+        padding: 0px;
+    }
+
+    .list-item{
+        padding: 0px;
+    }
+
+    .second-half-top{
+        display: flex;
+    }
+
+    /* .second-half-top img{
+        overflow:hidden;
+    } */
+
+
+
+
+
+
+
+    .second-half-bottom{
+        display: none;
+    }
 }
 
 
