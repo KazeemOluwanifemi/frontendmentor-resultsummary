@@ -28,7 +28,7 @@ body{
     border-radius: 30px;
 }
 
-.second-half-top{
+.second-half-top-mobile{
     display: none;
 }
 
@@ -147,7 +147,7 @@ body{
         padding: 0px;
     }
 
-    .second-half-top{
+    .second-half-top-mobile{
         display: flex;
     }
 
