@@ -10,6 +10,7 @@
 body{
     box-sizing: border-box;
     font-family: 'Roboto';
+    font-weight: 400;
     background-color: var(--charcoal-grey);
     color: var(--dark-slate-grey);
     display: flex;
