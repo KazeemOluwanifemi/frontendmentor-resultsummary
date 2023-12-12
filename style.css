@@ -61,6 +61,15 @@ body{
     justify-content: space-around;
 }
 
+.email-label{
+    margin-bottom: 5px;
+}
+
+.email-label b{
+    font-size: 13px;
+    margin-left: 109px;
+    display: none;
+}
 
 #sign-up{
     margin: 0px 0px;
@@ -84,7 +93,7 @@ body{
     border-color: var(--grey);
     border-style: solid;
     width: 90%;
-    margin: 10px 0px;
+    margin: 0px 0px 10px 0px;
 }
 
 .sign-up-form button{
