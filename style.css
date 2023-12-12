@@ -21,6 +21,7 @@ body{
 
 .main{
     background-color: var(--white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.263), 0 6px 20px 0 rgba(0, 0, 0, 0.252);
     display: flex;
     flex-direction: row;
     height: 450px;
@@ -113,7 +114,7 @@ body{
 }
 
 .attribution{
-    font-size: smaller; 
+    font-size: x-small; 
 }
 
 
